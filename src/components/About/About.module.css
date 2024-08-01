@@ -1,0 +1,25 @@
+.About {}
+
+ div.star_icon{
+  position: relative;
+}
+
+div.star_icon::before{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 90px;
+    height: 6px;
+    bottom: 15px;
+    right: 40px;
+}
+div.star_icon::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 90px;
+    height: 6px;
+    bottom: 15px;
+    left: 40px;
+
+}
